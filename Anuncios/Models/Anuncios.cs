@@ -19,7 +19,7 @@ namespace Mensajes.Models
 
         public int Id
         {
-            get { return Id; }
+            get { return _id; }
             set { _id = value; }
         }
 

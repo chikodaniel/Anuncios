@@ -10,17 +10,22 @@ using System.Windows.Input;
 
 namespace Anuncios.ViewModels
 {
-    public class AnunciosViewModel : IGeneric 
+    public class AnunciosViewModel : IGeneric
     {
-       
+
         private AnuncioCollection _ListaAnuncios = new AnuncioCollection();
         public AnuncioCollection ListaAnuncios
         {
             get { return _ListaAnuncios; }
-            set 
-            { 
+            set
+            {
                 _ListaAnuncios = value;
+                if (value != null && value.Count > 0)
+                {
+                    CurrentAnuncio = value[0];
+                }
                 RaisePropertyChanged("ListaAnuncios");
+
             }
         }
 
@@ -32,6 +37,7 @@ namespace Anuncios.ViewModels
             set {
                 _CurrentAnuncio = value;
                 RaisePropertyChanged("CurrentAnuncio");
+                RaisePropertyChanged("CanShowInfo");
             }
         }
 
@@ -47,14 +53,39 @@ namespace Anuncios.ViewModels
             }
         }
 
+        private ICommand _verInfoCommand;
+
+        public ICommand verInfoCommand
+        {
+            get
+            {
+                if (_verInfoCommand == null)
+                    _verInfoCommand = new RelayCommand(new Action(verInfo), () => CanShowInfo);
+                return _verInfoCommand;
+            }
+        }
+
+        private bool CanShowInfo
+        {
+            get
+            {
+                return CurrentAnuncio != null;
+            }
+        }
+
         public AnunciosViewModel()
         {
 
         }
 
-        public void ListarAnuncios()
+        private void ListarAnuncios()
         {
             ListaAnuncios = App.dbconector.listarAnuncios();
+        }
+
+        private void verInfo()
+        {
+            MessageBox.Show(CurrentAnuncio.Cuerpo);
         }
     }
 }
