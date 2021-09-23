@@ -20,3 +20,5 @@ C:\Users\chico\source\repos\Anuncios\Anuncios\bin\Debug\System.Windows.Interacti
 C:\Users\chico\source\repos\Anuncios\Anuncios\obj\Debug\Anuncios.csproj.AssemblyReference.cache
 C:\Users\chico\source\repos\Anuncios\Anuncios\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\chico\source\repos\Anuncios\Anuncios\obj\Debug\Anuncios.csproj.CopyComplete
+C:\Users\chico\source\repos\Anuncios\Anuncios\bin\Debug\Newtonsoft.Json.dll
+C:\Users\chico\source\repos\Anuncios\Anuncios\bin\Debug\Newtonsoft.Json.xml

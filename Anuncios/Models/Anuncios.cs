@@ -15,9 +15,9 @@ namespace Mensajes.Models
     {
 
 
-        private int _id;
+        private string _id;
 
-        public int Id
+        public string Id
         {
             get { return _id; }
             set { _id = value; }
@@ -44,7 +44,7 @@ namespace Mensajes.Models
 
         }
 
-        public Anuncio(int id, string nombre, string cuerpo)
+        public Anuncio(string id, string nombre, string cuerpo)
         {
             Id = id;
             Nombre = nombre;
