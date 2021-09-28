@@ -67,6 +67,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Connectors\dbconector.cs" />
+    <Compile Include="Core\BrushConverter.cs" />
     <Compile Include="Core\Commands\ParamCommands.cs" />
     <Compile Include="Core\IEnlace.cs" />
     <Compile Include="Core\IGeneric.cs" />

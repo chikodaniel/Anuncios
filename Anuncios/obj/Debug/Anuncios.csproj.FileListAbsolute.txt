@@ -17,7 +17,6 @@ C:\Users\chico\source\repos\Anuncios\Anuncios\bin\Debug\Microsoft.Expression.Int
 C:\Users\chico\source\repos\Anuncios\Anuncios\bin\Debug\System.Windows.Interactivity.dll
 C:\Users\chico\source\repos\Anuncios\Anuncios\bin\Debug\Microsoft.Expression.Interactions.xml
 C:\Users\chico\source\repos\Anuncios\Anuncios\bin\Debug\System.Windows.Interactivity.xml
-C:\Users\chico\source\repos\Anuncios\Anuncios\obj\Debug\Anuncios.csproj.AssemblyReference.cache
 C:\Users\chico\source\repos\Anuncios\Anuncios\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\chico\source\repos\Anuncios\Anuncios\obj\Debug\Anuncios.csproj.CopyComplete
 C:\Users\chico\source\repos\Anuncios\Anuncios\bin\Debug\Newtonsoft.Json.dll

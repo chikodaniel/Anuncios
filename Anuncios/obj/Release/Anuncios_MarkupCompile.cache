@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\chico\source\repos\Anuncios\Anuncios\obj\Debug\
+C:\Users\chico\source\repos\Anuncios\Anuncios\obj\Release\
 Anuncios
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\chico\source\repos\Anuncios\Anuncios\App.xaml
 2-1012554723
 
@@ -16,5 +16,5 @@ C:\Users\chico\source\repos\Anuncios\Anuncios\App.xaml
 15-1543144362
 MainWindow.xaml;Views\AnunciosViewer.xaml;
 
-False
+True
 
